@@ -8,9 +8,9 @@ function Page3(){
         <div style={{
             display: 'flex'
         }}>
-            <img className="primaImg" src="meme1.png"/>
-            <img className="aDouaImg" src="meme2.png"/>
-            <img className="aTreiaImg" src="meme3.png"/>
+            <img className="primaImg" src="meme1.png" alt="img1"/>
+            <img className="aDouaImg" src="meme2.png" alt="img2"/>
+            <img className="aTreiaImg" src="meme3.png" alt="img3"/>
         </div>
         </>
     )

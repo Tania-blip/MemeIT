@@ -29,13 +29,16 @@ function Page2(){
                         </div>
                         <div className="caseta2">
                             <form>
-                                <label>
+                                {/*todo */}
+                                <label className="memeLabel">
                                     Meme (jpg, jpeg, png, gif)
-                                </label>
-                                    <input className="input2" placeholder="drag & drop image or click to upload"/> 
+                                    <input  type="file" /> 
+                                    <input className="input2" placeholder="drag & drop image or click to upload"/>
+                                </label>       
+                                <button type = "submit" className = "ButonTrimitere"> Trimite</button>
                             </form>
                         </div>
-                        <button type = "submit" className = "ButonTrimitere"> Trimite</button>
+                        
                     </div>
                 </div>
                 

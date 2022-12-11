@@ -1,0 +1,77 @@
+.chestialba{
+    background-color: #FFFFFF;
+    padding-top: 1vw;
+}
+
+.chestiamov{
+    background-color: #6F3096;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.modalLoginContent{
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+}
+
+.modalLoginHeader{
+    color: #6F3096;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 4vw;
+    font-weight: 700;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+
+}
+
+.modalLoginBody{
+    margin-left: 2vw;
+}
+.label1M{
+    color: #252F65;
+    font-family: Merriweather;
+    font-weight:700;
+    font-size: 1.5vw;
+}
+
+.input1M{
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
+    border-radius: 5px;
+    border-color: #252F65;
+    border-width: 0.1vw;
+    width: 20vw;
+}
+
+.buttonCreareaCont{
+    margin-bottom: 3vw;
+    margin-top: 1.5vw;
+    background-color: #6F3096;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 7vw;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border-radius: 0.5vw;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 1vw;
+}
+
+dialog{
+    border: none;
+    padding-top: 0vw;
+}
+
+

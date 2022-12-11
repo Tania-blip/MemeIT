@@ -1,8 +1,8 @@
 import './Page1.css';
 
-function scrollInPenis() {
+function scrollFunction() {
 const element = document.getElementById('pagina2');
-console.log("Varfu");
+
 if (element) {
   element.scrollIntoView({ behavior: 'smooth' });
 }
@@ -34,7 +34,7 @@ function Page1(){
         
       <button 
       className="aText" 
-      onClick={scrollInPenis}>Upload a MEME</button>
+      onClick={scrollFunction}>Upload a MEME</button>
       
         
     </div>
