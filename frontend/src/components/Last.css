@@ -1,0 +1,28 @@
+.container{
+    background-color: #06114F;
+    margin-top: 2vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    
+}
+
+.txt{
+    font-family: Merriweather;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+
+.imagini{
+    margin-bottom: 1vw;
+}
+
+.InstaImg{
+    margin-left: 47vw;
+    margin-right: 0.8vw;
+}
+
+.AltcevaImg{
+    margin-right: 0.8vw;
+}

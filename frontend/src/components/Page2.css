@@ -1,0 +1,93 @@
+.fundal{
+    background-color: #6F3096;
+    padding-left: 20vw;
+    padding-top: 8vw;
+    padding-right: 20vw;
+    padding-bottom: 5vw;
+   
+}
+
+.paginaAlba{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+     /* padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;  */
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+    
+}
+
+.textSus{
+    color: #252F65;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 30vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+
+.textJos{
+    color: #252F65;
+    font-size: Roboto;
+    font-size: 22px;
+    font-weight: 300;
+    max-width: 16vw;
+    padding-left: 2vw;
+    padding-top: 1vw;
+}
+
+.stanga{
+    padding-right: 10vw;
+}
+
+label{
+    color: #06114F;
+    font-family: Merriweather;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1vw;
+}
+
+.input1{
+    border-radius: 5px;
+    border-width: 0.1vw;
+    border-color: #06114F;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 3vw;
+    margin-bottom: 1vw;
+}
+
+.input2{
+    border-radius: 5px;
+    border-width: 0.1vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    width: 15vw;
+    border-color: #06114F;
+    
+}
+
+.ButonTrimitere{
+    background-color: #6F3096;
+    font-family: Merriweather;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 1vw;
+    text-align: center;
+    width: 7vw;
+    height: 2vw;
+    margin-left: 5vw;
+    
+
+}
+
+

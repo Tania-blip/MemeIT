@@ -1,0 +1,50 @@
+.TextMare{
+   
+    text-align: center;
+    color: #252F65;
+    font-size: 55px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 121%;
+    vertical-align: top;
+    max-width: 40vw;
+    
+}
+
+.TextMic{
+   
+    text-align: center;
+    font-family:  Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 100%;
+    vertical-align: top;
+    color: #252F65;
+    max-width: 23vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
+}
+
+
+
+.aText{
+    color: #FFFFFF;
+    background-color: #6F3096;
+    border-radius: 5px;
+    border: none;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+
+.Imagine{
+    height: 647px;
+    width: 647px;
+}

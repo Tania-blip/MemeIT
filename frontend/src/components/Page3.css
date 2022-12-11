@@ -1,0 +1,27 @@
+.Text{
+    font-family: Merriweather;
+    color: #252F65;
+    margin-left: 8vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.primaImg{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width: 25vw;
+    height: 25vw;
+}
+
+.aDouaImg{
+    margin-right: 6vw;
+    width: 25vw;
+    height: 25vw;
+}
+
+.aTreiaImg{
+    width: 25vw;
+    height: 25vw;
+}
