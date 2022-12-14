@@ -7,8 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "*",
+    "bcrypt": "^5.1.0",
     "body-parser": "*",
+    "express": "*",
+    "express-validator": "^6.14.2",
     "mongoose": "*"
   },
   "author": "Vinturis Tania",

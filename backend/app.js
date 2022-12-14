@@ -2,10 +2,13 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+const { body, validationResult } = require('express-validator');
 
 app.use(bodyParser.json());
 
 Memes = require('./models/memes');
+User = require('./models/user');
+
 //Connect to mongoose
 mongoose.connect('mongodb://localhost/users');
 mongoose.set('strictQuery', true);
@@ -25,26 +28,64 @@ app.get('/memes', function(req, res){
     })
 });
 
+
 //intoarce un meme dupa id
 app.get('/memes/:_id', function(req, res){
     Memes.getMemesById(req.params._id, function(err, memes){
+       
         if(err){
             throw err;
         }
         res.json(memes);
+        
     })
 });
 
+
 //creaaza un meme in baza de date
-app.post('/memes', function(req, res){
-    var memes = req.body;
-    Memes.addMemes(memes, function(err, memes){
-        if(err){
-            throw err;
+app.post(
+    '/user',
+    body('email').isEmail()
+    .withMessage('the field must be a valid email'),
+    body('password').isLength({min:8 ,max:32})
+    .withMessage('the field is not between 8 and 32 characters'),
+    body('username').isLength({min:8 ,max:32})
+    .withMessage('the field is not between 8 and 32 characters'),
+    (req, res) => {
+        const errors = validationResult(req);
+        if (!errors.isEmpty()) {
+            return res.status(400).json({ errors: errors.array() });
+          }
+        var user = req.body;
+            User.addUser(user, function(err, user){
+                if(err){
+                    throw err;
+                }
+                res.json(user);
+            });
+        },
+    
+);
+//input validation for memes 
+app.post(
+    '/memes',
+    body('description').isLength({max: 2500})
+    .withMessage('the field is not between 0 and 2500 characters'),
+    (req, res) => {
+        const errors = validationResult(req);
+        if(!errors.isEmpty()){
+            return res.status(400).json({ errors: errors.array() });
         }
-        res.json(memes);
-    });
-});
+        var memes = req.body;
+        Memes.addMemes(memes, function(err, memes){
+            if(err){
+                throw err;
+            }
+            res.json(memes);
+        });
+    },
+)
+
 
 //modifica descriere unui meme dupa id
 app.put('/memes/:_id', function(req, res){
@@ -69,6 +110,40 @@ app.delete('/memes/:_id', function(req, res){
     });
 });
 
+//afiseaza toti userii
+app.get('/user', function(req, res){
+    User.getUser(function(err, user){
+        if(err){
+            throw err;
+        }
+        res.json(user);
+    })
+});
+
+//input validation for users 
+app.post(
+    '/user',
+    body('email').isEmail()
+    .withMessage('the field must be a valid email'),
+    body('password').isLength({min:8 ,max:32})
+    .withMessage('the field is not between 8 and 32 characters'),
+    body('username').isLength({min:8 ,max:32})
+    .withMessage('the field is not between 8 and 32 characters'),
+    (req, res) => {
+        const errors = validationResult(req);
+        if (!errors.isEmpty()) {
+            return res.status(400).json({ errors: errors.array() });
+          }
+        var user = req.body;
+            User.addUser(user, function(err, user){
+                if(err){
+                    throw err;
+                }
+                res.json(user);
+            });
+        },
+    
+);
 
 app.listen(5000);
 console.log('Running on port 5000...');

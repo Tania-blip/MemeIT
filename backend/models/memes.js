@@ -3,7 +3,8 @@ var mongoose = require('mongoose');
 //memes schema
 var memesSchema = mongoose.Schema({
     description:{
-        type: String
+        type: String,
+        required: true
     }
 })
 

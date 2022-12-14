@@ -19,3 +19,17 @@ var userSchema = mongoose.Schema({
 });
 
 var User = module.exports = mongoose.model('User', userSchema);
+
+//Get User
+module.exports.getUser = function(callback, limit){
+    User.find(callback).limit(limit);
+}
+
+//Add user(for register)
+module.exports.addUser = function(user, callback){
+    User.create(user, callback);
+}
+
+
+
+
