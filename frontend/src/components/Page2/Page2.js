@@ -31,10 +31,9 @@ function Page2(){
                             <form>
                                 {/*todo */}
                                 <label className="memeLabel">
-                                    Meme (jpg, jpeg, png, gif)
-                                    <input  type="file" /> 
-                                    <input className="input2" placeholder="drag & drop image or click to upload"/>
-                                </label>       
+                                     Meme (jpg, jpeg, png, gif) 
+                                </label>  
+                                <input  type="file" accept="image/png, image/jpeg, image/jpg, image/gif" /> 
                                 <button type = "submit" className = "ButonTrimitere"> Trimite</button>
                             </form>
                         </div>

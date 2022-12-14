@@ -62,7 +62,7 @@ label{
     margin-bottom: 1vw;
 }
 
-.input2{
+/* .input2{
     border-radius: 5px;
     border: solid #06114F;
     border-width: 0.1vw;
@@ -72,13 +72,21 @@ label{
     padding-right: 2vw;
     width: 15vw;
     border-color: #06114F;
-}
+} */
 
 
 
 
 input[type="file"] {
-    display: none;
+    border-radius: 5px;
+    border: solid #06114F;
+    border-width: 0.1vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    width: 15vw;
+    border-color: #06114F;
 }
 
 .ButonTrimitere{
