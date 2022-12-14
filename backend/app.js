@@ -15,7 +15,7 @@ mongoose.set('strictQuery', true);
 var db = mongoose.connection;
 
 app.get('/', function(req, res){
-    res.send('It works1');
+    res.send('It works!');
 });
 
 //intoarce toate meme-urile
