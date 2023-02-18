@@ -67,7 +67,4 @@ Pentru a testa functionalitatile se intra in Postman la http://localhost:5000/me
 CHALLENGE-URI
 Pentru mine, intreaga proba a reprezentat un adevarat challenge, deoarece a fost pentru prima oara cand am interactional cu web development-ul. 
 Sunt recunoscatoare pentru aceasta proba, deoarece am avut foarte multe de invatat. Am invatat ce inseamna frontend, cum sa construiesc o pagina web si cum sa o stilizez astfel incat sa arate cat mai bine posibil. De asemenea, am inteles si ce este backend-ul, care mi s-a parut foarte scary la inceput, insa aceasta proba mi-a aratat ca nu este imposibil. 
-In ciuda faptului ca nu am reusit sa finalizez toate task-urile, simt ca am invatat foarte multe lucruri interesante.
-Desi nu am reusit sa ma incadrez in timpul acordat probei, tot o sa incerc sa o termin pentru ca acum sunt chiar curioasa cum se implementeaza task3 , task5 si task 6:))
 
-<<imi pare rau daca nu m-am descurcat prea bine cu GitHub, a fost prima oara cand am interactionat cu el>>
