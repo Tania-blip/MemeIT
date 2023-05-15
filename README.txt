@@ -64,7 +64,3 @@ CUM SE RULEAZA BACKENDUL:
 Pentru a testa functionalitatile se intra in Postman la http://localhost:5000/memes sau http://localhost:5000/user
 
 
-CHALLENGE-URI
-Pentru mine, intreaga proba a reprezentat un adevarat challenge, deoarece a fost pentru prima oara cand am interactional cu web development-ul. 
-Sunt recunoscatoare pentru aceasta proba, deoarece am avut foarte multe de invatat. Am invatat ce inseamna frontend, cum sa construiesc o pagina web si cum sa o stilizez astfel incat sa arate cat mai bine posibil. De asemenea, am inteles si ce este backend-ul, care mi s-a parut foarte scary la inceput, insa aceasta proba mi-a aratat ca nu este imposibil. 
-
